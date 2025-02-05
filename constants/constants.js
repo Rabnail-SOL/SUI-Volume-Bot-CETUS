@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.POOL_ID = exports.SWAP_AMOUNT_MIN = exports.SWAP_AMOUNT_MAX = exports.BUY_INTERVAL_MAX = exports.BUY_INTERVAL_MIN = exports.DISTRIBUTE_INTERVAL_MIN = exports.DISTRIBUTE_INTERVAL_MAX = exports.RPC_WEBSOCKET_ENDPOINT = exports.RPC_ENDPOINT = exports.PRIVATE_KEY = exports.NETWORK = void 0;
+const utils_1 = require("../utils");
+exports.NETWORK = (0, utils_1.retrieveEnvVariable)('NETWORK') == "mainnet" ? "mainnet" : "testnet";
+exports.PRIVATE_KEY = (0, utils_1.retrieveEnvVariable)('PRIVATE_KEY');
+exports.RPC_ENDPOINT = (0, utils_1.retrieveEnvVariable)('RPC_ENDPOINT');
+exports.RPC_WEBSOCKET_ENDPOINT = (0, utils_1.retrieveEnvVariable)('RPC_WEBSOCKET_ENDPOINT');
+exports.DISTRIBUTE_INTERVAL_MAX = Number((0, utils_1.retrieveEnvVariable)('DISTRIBUTE_INTERVAL_MAX'));
+exports.DISTRIBUTE_INTERVAL_MIN = Number((0, utils_1.retrieveEnvVariable)('DISTRIBUTE_INTERVAL_MIN'));
+exports.BUY_INTERVAL_MIN = Number((0, utils_1.retrieveEnvVariable)('BUY_INTERVAL_MIN'));
+exports.BUY_INTERVAL_MAX = Number((0, utils_1.retrieveEnvVariable)('BUY_INTERVAL_MAX'));
+exports.SWAP_AMOUNT_MAX = Number((0, utils_1.retrieveEnvVariable)('SWAP_AMOUNT_MAX'));
+exports.SWAP_AMOUNT_MIN = Number((0, utils_1.retrieveEnvVariable)('SWAP_AMOUNT_MIN'));
+exports.POOL_ID = (0, utils_1.retrieveEnvVariable)('POOL_ID');

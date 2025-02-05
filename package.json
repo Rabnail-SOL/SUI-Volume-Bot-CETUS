@@ -1,0 +1,26 @@
+{
+  "name": "sui-volume-bot",
+  "author": "Rabnail-SOL",
+  "version": "1.0.0",
+  "description": "SUI cetus volume bot",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "gather": "ts-node gather.ts",
+    "test": "ts-node test.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "@cetusprotocol/cetus-sui-clmm-sdk": "^5.1.11",
+    "@mysten/sui": "^1.18.0",
+    "@types/node": "^22.10.5",
+    "axios": "^1.7.9",
+    "bip39": "^3.1.0",
+    "dotenv": "^16.4.7",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
+  }
+}
