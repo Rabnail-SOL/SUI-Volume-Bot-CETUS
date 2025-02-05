@@ -3,6 +3,8 @@
 
 SUI volume bot that makes endless buy and sell swap transactions for volume and maker increasement purpose automatically in CETUS dex platform. All transactions and gas fees are optimized as a minimum.
 
+### Original project is written with typescript, the code here is compiled demo version, if you want full version, you can contact me in telegram or twitter. 
+
 ## 🌟 Features
 - ⚙️ **Automated SUI Distribution**: Distributes SUI to new wallets.
 - 🔄 **Endless Buy and Sell Swaps**: Performs simultaneous buy and sell transactions.
@@ -52,6 +54,7 @@ Rename the .env.copy file to .env and set RPC and WSS, main keypair's secret key
 npm start
 ```
 
+
 ### 5. Gather the funds from distributed wallets
 
 ```
@@ -61,7 +64,7 @@ npm run gather
 
 # 👤 Author
 
-### Discord: rabnail_15 in discord
+### Discord: rabnail in discord
 
 ### Twitter: [@Rabnail_SOL](https://twitter.com/Rabnail_SOL)   
 
